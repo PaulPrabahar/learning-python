@@ -1,0 +1,3 @@
+02_variables:
+          variables are used to store a value and reference them later in a program dynamically.
+we can create a variable by giving them a name and asinning a value. i.e- name = "string".

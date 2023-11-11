@@ -1,0 +1,7 @@
+01. INTRODUCTION
+In my initial exploration of Python, I first grasped its fundamental workings. 
+Python, a high-level programming language, utilizes interpreters to transform human-readable code into machine-executable instructions.
+The Python interpreter consists of two main components: a compiler and the Python Virtual Machine (PVM). 
+The compiler fetches the file and converts it into bytecode. 
+This bytecode is then processed by the PVM, which translates it into machine code before storing it in memory.
+It's worth noting that the bytecode generated during this process is stored in a folder automatically created by Python called "pycache."
