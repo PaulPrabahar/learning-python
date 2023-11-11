@@ -1,0 +1,20 @@
+05_Data Types:
+        Data types is defined as the which type of data a value of a variable can hold.
+The different types of data are.
+1. Numeric Types: int,float,complex 
+2. Text Type: str, Sequence Types:list, tuple and Set Types:
+3. Mapping Type
+4. Boolean Type
+5. None Type
+
+String Data types:
+        These data types are made of letters these are enclosed inside a single or double quotes.
+literal assignment:
+        where the values of variable is assigned directly eg:- name = "name"
+To check data types:
+        We use type function to check the data type of a variable.
+1. print(type(first))
+        we can also use the type function to check wether the data type of a particular variable is same.
+2. print(type(first) == str) which in return true or false.
+        we can also use instance function to check the data type of a variable.
+3. print(isinstance(first, str)) which in return true or false.
