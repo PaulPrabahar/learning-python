@@ -48,4 +48,4 @@ Boolean Data Type:
 The boolean data type is nothing but true or false 
 we assign a variable true or false using boolean
 Either with literal assignment value = True
-or using a constuctor function value = bool(true)
+or using a constuctor function value = bool(True)
