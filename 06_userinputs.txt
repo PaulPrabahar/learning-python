@@ -1,0 +1,2 @@
+We can get value from user with help of the method input()
+were we assing this a variable for furthor process of the code.
