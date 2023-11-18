@@ -18,3 +18,7 @@ To check data types:
 2. print(type(first) == str) which in return true or false.
         we can also use instance function to check the data type of a variable.
 3. print(isinstance(first, str)) which in return true or false.
+4. Concatination:
+        We can concatinate two string with a help of "+" operator i.e: "paul" + "prabahar"
+Note we can concat only string not any other datatype otherwise it throws an 
+error: TypeError: can only concatenate str (not "int") to str
