@@ -22,3 +22,15 @@ To check data types:
         We can concatinate two string with a help of "+" operator i.e: "paul" + "prabahar"
 Note we can concat only string not any other datatype otherwise it throws an 
 error: TypeError: can only concatenate str (not "int") to str
+5.Multiline string:
+        We can create a multi line string with the help of ( ''' ''' ) it can also consider whitespace and print them.
+6.Escaping special character:
+        we can escape special character with the help of \ .
+7.String methods:
+        There are many string methods like replace("good", "bad") which make's a replacement in thegiven string.
+        title() which makes all the first letter of a string capital. 
+        len() to calculate a length of a string.
+        strip() to remove whitespace from a string.
+        center() to center the string, also to replace empty spot with character.
+        ljust() to justify left side and replace remaining spot with character.
+        rjust() to justify right side and replace remaining spot with character.

@@ -26,3 +26,26 @@ hey how are you
 
 '''
 print(multilinestr)
+
+#Escaping special character
+escspel = 'Hey guy\'s \t today i talked to\n essaki.'
+print(escspel)
+
+#String methods
+print(first.lower())
+print(first.upper())
+print(first.title())
+print(multilinestr.replace("essaki", "femy"))
+print(len(multilinestr))
+print(len(multilinestr.strip()))
+print(len(multilinestr.lstrip()))
+print(len(multilinestr.rstrip()))
+
+print("")
+
+#Buliding a menu
+tiltle = "menu".upper() #we can use method directly in the value.
+print(tiltle.center(20, "*"))
+print("coffee".ljust(16, ".") + "$1".rjust(4))
+print("tea".ljust(16, ".") + "$1".rjust(4))
+print("cake".ljust(16, ".") + "$1".rjust(4))
