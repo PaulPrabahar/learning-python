@@ -60,7 +60,30 @@ print(first.startswith("p"))
 print(first.endswith("l"))
 
 print("")
+
 #Boolean datatypes.
 myValue = False
 print(type(myValue) == bool )
 print(isinstance(myValue, bool))
+print("")
+
+#Numeric data type.
+
+#Intger type
+price = 100
+best_price = int(80)
+print(type(price))
+print(isinstance(price, int))
+
+#float type
+grade = 1.22
+best_grade = float(5.33)
+print(type(best_grade))
+
+#Complex type
+complex = 5+3j
+print(type(complex))
+
+#Casting number into a string
+pincode = "618005"
+print(type(int(pincode)) == int) 

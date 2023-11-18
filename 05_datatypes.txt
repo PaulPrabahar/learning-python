@@ -49,3 +49,15 @@ The boolean data type is nothing but true or false
 we assign a variable true or false using boolean
 Either with literal assignment value = True
 or using a constuctor function value = bool(True)
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+Numeric Data Type:
+The numeric data type consist of number and it has three main sectors they are.
+            *Integers
+            *Float(Decimal)
+            *complex number(vectors i.e: 5+3j)
+These can be assigned through literal assignment are through constructor function like
+int() & float()
+Casting string into a numeric:
+with the help of constructor function we can change a string into numeric i.e:pincode = int("618005") 
