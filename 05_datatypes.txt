@@ -34,3 +34,18 @@ error: TypeError: can only concatenate str (not "int") to str
         center() to center the string, also to replace empty spot with character.
         ljust() to justify left side and replace remaining spot with character.
         rjust() to justify right side and replace remaining spot with character.
+8. String index value:
+        the index value of a string starts with 0 and negative value is also taken in to account
+but while working with range function we need to be cautious since it will print only before the give 
+index value.`
+9.String methods return boolean data:
+         startswith() it finds that if the string starts with the give letter.the return value is either true or false
+         endswith() it finds that if the string ends with the give letter.the return value is either true or false
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+Boolean Data Type:
+The boolean data type is nothing but true or false 
+we assign a variable true or false using boolean
+Either with literal assignment value = True
+or using a constuctor function value = bool(true)

@@ -49,3 +49,18 @@ print(tiltle.center(20, "*"))
 print("coffee".ljust(16, ".") + "$1".rjust(4))
 print("tea".ljust(16, ".") + "$1".rjust(4))
 print("cake".ljust(16, ".") + "$1".rjust(4))
+
+#string index value
+print(first[0])
+print(first[0:3])
+print(first[0:])
+
+#String methods return boolen data type.
+print(first.startswith("p"))
+print(first.endswith("l"))
+
+print("")
+#Boolean datatypes.
+myValue = False
+print(type(myValue) == bool )
+print(isinstance(myValue, bool))
