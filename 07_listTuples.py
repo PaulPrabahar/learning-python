@@ -58,3 +58,20 @@ myNames.sort(key=str.lower)
 print(names)
 print(myNames)
 print(myNewList)
+
+#tuples
+myTuple = tuple((1,1,2,3,5,8))
+myNewTuple = (1,1,2,5,8,13,21)
+
+(one, anotherone, *remaining) = myNewTuple #unpacking a tuple 
+print(one)
+print(anotherone)
+print(remaining)
+
+#modifying a tuple
+modify = list(myNewTuple) #convert to list
+modify.append(34) #modify it
+modified = tuple(modify) #convert to tuple
+print(modified)
+
+

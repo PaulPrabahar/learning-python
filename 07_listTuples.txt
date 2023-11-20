@@ -69,4 +69,36 @@ newNmaes = sorteed(nums) which creates a copy doesn't alter the original array. 
 Method 2:
 to use copy method
 newNames = names.copy() 
-it just create a copy of a list
+it just create a copy of a list.
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+Tuples:
+     Tuples are like list but they are immutable. i.e data inside a tuples cannot be changed or modified.
+     tuples are represented with () eg (11,22,33,444)
+we can create tuples by using constructor function called tuples()
+eg:-my = tuples((1,2,3,4,5))
+
+or by literal assignment
+eg:- my = (1,2,3,4,5,6)
+
+One of benifets of tuples are the can be unpacked.
+(one,two,three,*remaining) = my
+which assign value respectively 
+one = 1
+two = 2
+three = 3
+remaining = [4,5,6] * is use to represent the remaining in the remaining variable.
+
+But to modify a tuple there is a way
+convert tuple to list 
+then modify the list
+the convret the list to a tuple.
+
+now the tuple is modified
+eg:-
+    #modifying a tuple
+    modify = list(myNewTuple)
+    modify.append(34)
+    modified = tuple(modify)
+    print(modified)
