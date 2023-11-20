@@ -1,0 +1,83 @@
+Dictionaries:
+            Dictionaries in python are use to store data in a key value pairs
+eg:- info = {
+    "name": 'paul',
+    "age": 23
+}
+
+We can create dictionary with literal assignment like example shown above.or using a constructor function
+dict(name: "puppy", age: 32) 
+
+To access the data in the dictionary we use [] or get() method
+i.e:- info["name"] -> paul
+      info.get("age") -> 23
+    
+To get all the keys available in a dictionary we use key() method
+i.e: info.key() -> provides all the available
+
+To get all the values available in the dictionary we can use values() method
+i.e: info.values() -> provides all the values.
+
+To get all keys and values in a dictionary we use items() method which provides them as a tuple.
+i.e: info.items() -> provides all the keys and values in a tuple.
+
+To modify a dictionary we can use [] or update() method
+i.e:- info['name'] = 'python' -> literal assignment changes the specified key's value.
+      info.update({'name': 'prabahar'}) -> using the update method.
+      info.update({'gender': 'male'}) -> also to add new data
+To remove a data in dictionary we can use pop() method and popitems() method
+we use pop() to specifically remove the key by mentionaning it. It also retun the value of the mentioned key.
+i.e:- info.pop("name") -> removes the name key and its value from the dictionary
+We use popitems() to remove the last pair from the dictionary also the last item is returned as a tuple
+i.e:- info.popitems() -> removes fron the dictionary and returns a tuple.
+
+To delete a particular data in a dictionary we can use del function 
+i.e: del info['name'] -> deletes the particular key and value.
+
+To clear the entire dictionary we can use clear() method
+i.e: info.clear() -> clears all the data in a dictionary and gives a empty dictionary.
+
+To delete a entire dictionary we can use del function
+i.e: del info -> deletes the entire dictionary.
+
+To create a copy of a dictionary we can use copy() method or dict() constructor function
+i.e: info1 = info.copy()
+     info2 = dict(info)
+
+Nested dictionary:
+                 A dictionary that contains values as a another dictionary is called nested dictionary.
+eg: player1 = {
+    "name": 'luck',
+    "height": 5.6
+}
+player2 = {
+    "name": 'dead',
+    "height": 5.8
+}
+team = {
+    'player1':player1,
+    'player2':player2
+}
+To access these dictionary we can use the [].
+i.e:print(team['player1']['height'])
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+Sets:
+     Sets are used to get data and store them also we use them to avoid duplication of the data.
+We can create data in two ways they are, 
+         num = {1,2,3,4} literal assignment
+         num2 = set((1,2,3,4)) using constructor function.
+
+set avoid duplication that also works with int and boolen verify this example
+# 1=True and 0=false
+num3 = {1,True,2,3,4,False,0}
+print(num3) #output {False, 1, 2, 3, 4}
+if there is two same value it removes the last value and display the first value only
+
+We cannot  refer an set with a index position.
+
+To add a single element to a set we use add() method
+i.e: num.add(5) -> ads 5
+
+To add an one set with another we use update() method
+i.e: num.update(num2) -> in add num2 data to num set.
