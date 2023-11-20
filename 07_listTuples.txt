@@ -1,0 +1,29 @@
+List:
+    In python list can be created by refrencing it to variable and denoting it with a []
+i.e: name = ['paul', 'prabahar']
+
+list can hold any kind of data - str, int, float, boolean.
+
+A list can also be empty i.e: emptylist = []
+
+To check a element is present in a list we can use "in" key word
+eg:- print("paul" in name) -> which gives a boolean value in return. 
+
+we can also access a elements in a list with a help of index value.
+print(name[0]) -> which in retur gives paul as a value.
+
+To find the position of a specific element in the list then we use a method called index()
+i.e:- print(name.index("paul")) -> which return a index value 0
+
+To print a range of elements in the list we can use bracket notation list[0:2]
+i.e:- print(name[0:]) -> returns all the element in the list.
+
+To check the length of a list we can use len() method.
+i.e:- print(len(name)) -> which return 2 as a result.
+
+To add a element to a existing list we can use append() method.
+i.e:- name.append('lenin') -> which adds the new element to the list.
+
+To add a element or an entire list we can use extend() method.
+i.e:- name.extend(name2) to add an entire list.
+    name.extend(['stewie']) to add an element.
