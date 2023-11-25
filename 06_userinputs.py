@@ -1,4 +1,4 @@
-import sys
+import sys          #This module is used to directly access the python interpretor to perform certain task.
 import random
 
 print("let's play rock, paper, scissor")
